@@ -1,0 +1,74 @@
+name:
+  first: Shashank
+  last: Sripad
+# phone: +49 1515 9304449
+email: ssripad@cmu.edu
+pdf: /data/cv.pdf
+src: https://github.com/ssripad/cv
+url: ssripad.github.io
+social:
+ twitter: ssripad
+ linkedin: ssripad
+ github: ssripad
+ google_scholar: R34nvJoAAAAJ
+ 
+# LaTeX formatting.
+style: banking # casual, classic, oldstyle, or banking
+color: blue # blue, orange, green, red, purple, grey and black
+color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
+
+# (tag, section type, title)
+order:
+  - [education, Education]
+  - [all_publications, Publications]  
+
+about: ''
+
+
+education:
+  - school: Carnegie Mellon University
+    location: Pittsburgh, PA
+    degree: Ph.D. in Mechanical Engineering
+    dates: 2017 -- Present
+    details:
+      # - "\\textit{\\href{https://github.com/bamos/thesis}{Differentiable Optimization-Based Modeling for Machine Learning}}"
+      - "Advisor: \\href{https://www.andrew.cmu.edu/user/venkatv/}{Venkat Viswanathan}"
+
+  - school: Carnegie Mellon University
+    location: Pittsburgh, PA
+    degree: M.S. in Energy Science, Technology, \& Policy
+    dates: 2015 -- 2016
+
+  - school: National Institute of Technology-Karnataka
+    location: India
+    degree: B.Tech. in Chemical Engineering
+    dates: 2011 -- 2015
+
+all_publications:
+  name: "Sripad"
+  file: all.bib
+  sort_bib: True
+  include_image: False
+  group_by_year: True
+  # categories:
+  #   - heading: Preprints and Tech Reports
+  #     prefix: P
+  #     file: tech-reports.bib
+  #   - heading: Conference Proceedings
+  #     prefix: C
+  #     file: conference.bib
+  #   - heading: Journal Articles
+  #     prefix: J
+  #     file: journal.bib
+  #   - heading: Workshop, Symposium, and Short Papers
+  #     prefix: W
+  #     file: short.bib
+  #   - heading: Magazine Articles
+  #     prefix: M
+  #     file: magazine.bib
+    # - heading: Posters
+    #   prefix: S
+    #   file: posters.bib
+
+  author_urls:
+    'Aaron Lou': 'https://www.aaronlou.com/'

@@ -1,0 +1,8 @@
+__pycache__
+*.aux
+*.log
+*.out
+*.pdf
+*.db
+venv
+auto
